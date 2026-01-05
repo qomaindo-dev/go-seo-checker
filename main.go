@@ -106,7 +106,7 @@ func main() {
 	// Default according to your file. Can be changed via arg:
 	// go run . input.xlsx output.xlsx
 	inFile := "List-Link.xlsx"
-	outFile := "List-Link.xlsx"
+	outFile := "Link-List_RESULT.xlsx"
 	if len(os.Args) >= 2 {
 		inFile = os.Args[1]
 	}
